@@ -2,10 +2,21 @@
 
 use Phaza\SSR\Exceptions\UnknownNameTypeException;
 
+/**
+ * Represents a given type on a feature.
+ * This can be anything from a mountain or valley, to a cabin or a pole in the ocean.
+ *
+ * @package Phaza\SSR\Feature
+ */
 class NameType {
 
 	private $nameType;
 
+	/**
+	 * Creates a new object with the given name type
+	 * @throws UnknownNameTypeException
+	 * @param $language
+	 */
 	public function __construct($nameType) {
 		if(!in_array($nameType, array_keys($this->nameTypes))) {
 			throw new UnknownNameTypeException(sprintf("Value was '%s'", $nameType));

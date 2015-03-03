@@ -4,6 +4,12 @@ use Closure;
 use JsonStreamingParser_Listener;
 use stdClass;
 
+/**
+ * The listener package will separate out the features of the geojson file
+ * and invoke the given $featureCallback for each feature.
+ *
+ * @package Phaza\SSR
+ */
 class Listener implements JsonStreamingParser_Listener {
 
 	protected $stack = [];
@@ -16,6 +22,13 @@ class Listener implements JsonStreamingParser_Listener {
 	 */
 	private $featureCallback;
 
+
+	/**
+	 * Create a new Listener. $featureCallback will be executed for each
+	 * geojson feature found in the stream.
+	 *
+	 * @param Closure $featureCallback
+	 */
 	public function __construct(Closure $featureCallback) {
 
 		$this->featureCallback = $featureCallback;

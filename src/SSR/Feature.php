@@ -2,6 +2,10 @@
 
 use DateTime;
 use DateTimeZone;
+use Phaza\SSR\Exceptions\UnknownLanguageException;
+use Phaza\SSR\Exceptions\UnknownNameTypeException;
+use Phaza\SSR\Exceptions\UnknownStatusException;
+use Phaza\SSR\Exceptions\UnknownTypeStatusException;
 use Phaza\SSR\Feature\Language;
 use Phaza\SSR\Feature\NameStatus;
 use Phaza\SSR\Feature\NameType;
@@ -9,6 +13,11 @@ use Phaza\SSR\Feature\Position;
 use Phaza\SSR\Feature\TypeStatus;
 use stdClass;
 
+/**
+ * Represents a single geojson feature
+ *
+ * @package Phaza\SSR
+ */
 class Feature {
 	/* @var integer */
 	protected $id;
@@ -58,6 +67,10 @@ class Feature {
 	/* @var Position */
 	protected $position;
 
+	/**
+	 * Creates a new feature from the given data
+	 * @param stdClass $data
+	 */
 	public function __construct( stdClass $data ) {
 
 		$tz = new DateTimeZone('Europe/Oslo');
@@ -73,12 +86,11 @@ class Feature {
 		$this->name               = $data->properties->enh_snavn;
 		$this->municipality_id    = str_pad( $data->properties->enh_komm, 4, '0', STR_PAD_LEFT );
 		$this->county_id          = str_pad( $data->properties->kom_fylkesnr, 2, '0', STR_PAD_LEFT );
-		$this->sub_id = $data->properties->enh_ssrobj_id;
-		$this->type_status = new TypeStatus( $data->properties->enh_sntystat );
-		$this->name_type = new NameType( $data->properties->enh_navntype );
-		$this->text = $data->properties->kpr_tekst;
-
-		$this->position = new Position($data->geometry);
+		$this->sub_id             = $data->properties->enh_ssrobj_id;
+		$this->type_status        = new TypeStatus( $data->properties->enh_sntystat );
+		$this->name_type          = new NameType( $data->properties->enh_navntype );
+		$this->text               = $data->properties->kpr_tekst;
+		$this->position           = new Position( $data->geometry );
 	}
 
 	/**

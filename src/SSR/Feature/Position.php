@@ -2,6 +2,11 @@
 
 use stdClass;
 
+/**
+ * Represents the geographical position of this Feature
+ *
+ * @package Phaza\SSR\Feature
+ */
 class Position {
 	/* @var float */
 	protected $lat;

@@ -2,6 +2,11 @@
 
 use Phaza\SSR\Exceptions\UnknownLanguageException;
 
+/**
+ * Represents the language (for the name) for a given Feature
+ *
+ * @package Phaza\SSR\Feature
+ */
 class Language {
 	private $languages = [
 		'NO' => [ 'name' => 'Norsk',       'description' => 'Offisielt språk på stedsnavn i Norge, brukes i Norge og på Svalbard.' ],
@@ -26,6 +31,11 @@ class Language {
 
 	private $language;
 
+	/**
+	 * Creates a new object with the given language
+	 * @throws UnknownLanguageException
+	 * @param $language
+	 */
 	public function __construct($language) {
 		if(!in_array($language, array_keys($this->languages))) {
 			throw new UnknownLanguageException(sprintf("Value was '%s'", $language));

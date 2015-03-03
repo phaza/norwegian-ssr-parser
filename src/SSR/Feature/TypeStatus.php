@@ -2,6 +2,12 @@
 
 use Phaza\SSR\Exceptions\UnknownTypeStatusException;
 
+/**
+ * Represents the status of the name of the Feature.
+ * H = main name.
+ *
+ * @package Phaza\SSR\Feature
+ */
 class TypeStatus {
 	private $statuses = [
 		'H' => 'Hovednavn',
