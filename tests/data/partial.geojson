@@ -1,0 +1,267 @@
+{
+  "type": "FeatureCollection",
+  "features":
+  [
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 805,
+        "for_kartid": "",
+        "for_regdato": 19991001,
+        "skr_sndato": 19600101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20130122,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Moi",
+        "enh_komm": 1032,
+        "enh_ssrobj_id": 806,
+        "enh_sntystat": "H",
+        "enh_navntype": 103,
+        "for_snavn": "Moi",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "N250 Kartdata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.184372,
+          58.245103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 1619,
+        "for_kartid": "1411-2",
+        "for_regdato": 19870707,
+        "skr_sndato": 19590101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20060714,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Nome",
+        "enh_komm": 1021,
+        "enh_ssrobj_id": 1622,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Nome",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "Norge 1:50 000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5683,
+          58.149633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 2402,
+        "for_kartid": "",
+        "for_regdato": 20001123,
+        "skr_sndato": 19600101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20120425,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Heia",
+        "enh_komm": 1018,
+        "enh_ssrobj_id": 2407,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Heia",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "N50 Kartdata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.736456,
+          58.115706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 2978,
+        "for_kartid": "BM005-5-4",
+        "for_regdato": 19981111,
+        "skr_sndato": 19981221,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20120712,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Moen",
+        "enh_komm": 926,
+        "enh_ssrobj_id": 2987,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Moen",
+        "kom_fylkesnr": 9,
+        "kpr_tekst": "Økonomisk kartverk  1:5 000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.239244,
+          58.192856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "V",
+        "enh_ssr_id": 4043,
+        "for_kartid": "1311-4",
+        "for_regdato": 19870928,
+        "skr_sndato": 20010322,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 19931101,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Moi",
+        "enh_komm": 1112,
+        "enh_ssrobj_id": 4057,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Moi",
+        "kom_fylkesnr": 11,
+        "kpr_tekst": "Norge 1:50 000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.547861,
+          58.455967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 4172,
+        "for_kartid": "AS010-5-4",
+        "for_regdato": 20000302,
+        "skr_sndato": 19750101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20000302,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Eige",
+        "enh_komm": 1112,
+        "enh_ssrobj_id": 4186,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Eike",
+        "kom_fylkesnr": 11,
+        "kpr_tekst": "Økonomisk kartverk  1:5 000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.580194,
+          58.400447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 4497,
+        "for_kartid": "",
+        "for_regdato": 19991001,
+        "skr_sndato": 19610101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20091216,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 5,
+        "enh_snavn": "Bø",
+        "enh_komm": 1004,
+        "enh_ssrobj_id": 4514,
+        "enh_sntystat": "H",
+        "enh_navntype": 108,
+        "for_snavn": "Bø",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "N250 Kartdata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.789842,
+          58.469056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 5143,
+        "for_kartid": "",
+        "for_regdato": 20090421,
+        "skr_sndato": 19710101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20090421,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 2,
+        "enh_snavn": "Førvatn",
+        "enh_komm": 1034,
+        "enh_ssrobj_id": 5160,
+        "enh_sntystat": "H",
+        "enh_navntype": 32,
+        "for_snavn": "Førvatn",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "N50 Kartdata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.206822,
+          58.423244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "skr_snskrstat": "G",
+        "enh_ssr_id": 5181,
+        "for_kartid": "1411-4",
+        "for_regdato": 19870715,
+        "skr_sndato": 19640101,
+        "enh_snmynd": "SK",
+        "for_sist_endret_dt": 20060714,
+        "enh_snspraak": "NO",
+        "nty_gruppenr": 2,
+        "enh_snavn": "Tyvatnet",
+        "enh_komm": 1034,
+        "enh_ssrobj_id": 5198,
+        "enh_sntystat": "H",
+        "enh_navntype": 31,
+        "for_snavn": "Tyvatn",
+        "kom_fylkesnr": 10,
+        "kpr_tekst": "Norge 1:50 000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150669,
+          58.404592
+        ]
+      }
+    }
+  ]
+}
