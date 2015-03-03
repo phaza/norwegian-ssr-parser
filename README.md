@@ -12,7 +12,7 @@ written in PHP, which naturally is slower than native `json_decode`.
 	composer require "phaza/norwegian-ssr-parser"
 	
 **Use the parser**
-``
+```
 #!PHP
 <?php
   
