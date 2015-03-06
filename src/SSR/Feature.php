@@ -53,7 +53,7 @@ class Feature {
 	protected $county_id;
 
 	/* @var integer */
-	protected $sub_id;
+	protected $obj_ref_id;
 
 	/* @var TypeStatus */
 	protected $type_status;
@@ -75,7 +75,7 @@ class Feature {
 
 		$tz = new DateTimeZone('Europe/Oslo');
 
-		$this->id                 = $data->properties->enh_ssr_id;
+		$this->id                 = $data->properties->enh_ssrobj_id;
 		$this->name_status        = new NameStatus( $data->properties->skr_snskrstat );
 		$this->registration_date  = DateTime::createFromFormat( 'Ymd', (string) $data->properties->for_regdato, $tz );
 		$this->name_decision_date = DateTime::createFromFormat( 'Ymd', (string) $data->properties->skr_sndato, $tz );
@@ -86,7 +86,7 @@ class Feature {
 		$this->name               = $data->properties->enh_snavn;
 		$this->municipality_id    = str_pad( $data->properties->enh_komm, 4, '0', STR_PAD_LEFT );
 		$this->county_id          = str_pad( $data->properties->kom_fylkesnr, 2, '0', STR_PAD_LEFT );
-		$this->sub_id             = $data->properties->enh_ssrobj_id;
+		$this->obj_ref_id         = $data->properties->enh_ssr_id;
 		$this->type_status        = new TypeStatus( $data->properties->enh_sntystat );
 		$this->name_type          = new NameType( $data->properties->enh_navntype );
 		$this->text               = $data->properties->kpr_tekst;
@@ -173,8 +173,8 @@ class Feature {
 	/**
 	 * @return int
 	 */
-	public function getSubId() {
-		return $this->sub_id;
+	public function getObjRefId() {
+		return $this->obj_ref_id;
 	}
 
 	/**

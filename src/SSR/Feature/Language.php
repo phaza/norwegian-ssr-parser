@@ -17,6 +17,7 @@ class Language {
 		'DA' => [ 'name' => 'Dansk',       'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
 		'EN' => [ 'name' => 'Engelsk',     'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
 		'FI' => [ 'name' => 'Finsk',       'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
+		'FN' => [ 'name' => 'Finsk',       'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
 		'FR' => [ 'name' => 'Fransk',      'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
 		'FO' => [ 'name' => 'Færøysk',     'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
 		'KL' => [ 'name' => 'Grønlandsk',  'description' => 'Språk på stedsnavn utenfor Norges fastland.' ],
