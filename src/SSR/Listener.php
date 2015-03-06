@@ -34,10 +34,6 @@ class Listener implements JsonStreamingParser_Listener {
 		$this->featureCallback = $featureCallback;
 	}
 
-
-	public function file_position( $line, $char ) {
-	}
-
 	public function start_document() {
 		// TODO: Implement start_document() method.
 	}
