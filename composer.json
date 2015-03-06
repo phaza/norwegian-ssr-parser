@@ -1,9 +1,15 @@
 {
     "name": "phaza/norwegian-ssr-parser",
     "description": "Parses the Norsk stedsnavnregister (Norwegian location name register) geojson dump as a stream",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phaza/jsonstreamingparser.git"
+        }
+    ],
     "require": {
         "php": ">=5.4",
-        "salsify/json-streaming-parser": "~3.0"
+        "salsify/json-streaming-parser": "dev-master"
     },
     "require-dev": {
         "php": ">=5.5",
