@@ -224,6 +224,7 @@ class NameType {
 		'228' => [ 'name' => 'Hyttefelt', 'description' => 'Offentlig/privat hyttefelt eller relativt tettbygd hytteområde.' ],
 		'229' => [ 'name' => 'Barnehage', 'description' => 'Offentlig og privat barnehage' ],
 		'230' => [ 'name' => 'Poststed', 'description' => 'Offisielt poststed /postnummerområde' ],
+		'231' => [ 'name' => 'Adressenavn (område)', 'description' => 'Omfatter et område, evt. som supplement til gate-/veiadresse. (Kommunalt adresseområde)' ],
 		'232' => [ 'name' => 'Plass/torg', 'description' => 'I tettsted eller by' ],
 		'233' => [ 'name' => 'Gjerde', 'description' => 'Steingjerde, tregjerde o.l.' ],
 		'234' => [ 'name' => 'Stø', 'description' => 'Båtstø, båtplass (uten naust) i vannkanten' ],
